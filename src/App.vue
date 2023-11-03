@@ -1,0 +1,28 @@
+ 
+<template   >
+  <div id="app1" >
+    <Natifcation />
+  </div>
+</template>
+
+<script>
+import Natifcation from './components/Natifcation.vue';
+
+export default { 
+  components: {
+    Natifcation,
+  },
+};
+</script>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  -webkit-scrollbar: none;
+  outline: none;
+} 
+</style>
